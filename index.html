@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+ <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+ <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+ <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-pItP7VU68F4UQ1GxOFiJYAVSb82vkKWS+r/zPw6K0ZL+77CGkgmTn9BMtI0Plqzv3WW+jMnncPz+V1kIlm3zdw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<style>
+
+  ul{
+    list-style: none;
+  }
+ a {
+  text-decoration: none;
+ }
+ .footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer i {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.row{
+  display: flex;
+
+}
+.column{
+  flex:50%;
+  padding: 10px;
+}
+
+</style>
+</head>
+<body>
+  
+  <div data-role="page" id="home" style="background-color: rgb(255, 255, 255);">
+    <div data-role="header">
+    <h1>Pune Institute of Computer Technology,Pune</h1>
+<h4>Autonomous Institute affiliated to Savitribai Phule Pune University</h4>
+    </div>
+
+    <div data-role="navbar" data-grids="C">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#dept">Department</a></li>
+        <li><a href="#achieve">Achievement</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+
+    <div data-role="content">
+      <h3>Welcome To PICT</h3>
+       
+      <p>Pune Institute of Computer Technology (popularly known as PICT), is an elite academic Institute located in Pune,
+      “The Oxford of the East.” Since our establishment in 1983, PICT has been revolutionizing the education sector by
+      nurturing skilled and industry-ready engineers.
+
+      PICT believes in value-based quality education in Information and Communication Technology (ICT). PICT
+      constantly endeavours to achieve higher levels of technical ingenuity through our undergraduate (UG) programmes
+      in Computer Engineering (CE), Electronics & Telecommunication Engineering (E&TE), and Information Technology
+      (IT). Our postgraduate (PG) programmes in Computer Engineering, Data Science, Electronics & Communication
+      (Wireless Communication Technology), and Information Technology promote a high-quality research environment in
+      emerging technological domains.
+      PICT is a Savitribai Phule Pune University (SPPU) recognized Research Center in Computer Engineering and
+      Electronics & Telecommunication Engineering.
+      </p>
+      <h3>Vision</h3>
+       
+      <p>Pune Institute of Computer Technology (popularly known as PICT), is an elite academic Institute located in Pune,
+      “The Oxford of the East.” Since our establishment in 1983, PICT has been revolutionizing the education sector by
+      nurturing skilled and industry-ready engineers.
+      </p>
+
+      <h3>Mission</h3>
+       
+      <p>Pune Institute of Computer Technology (popularly known as PICT), is an elite academic Institute located in Pune,
+      “The Oxford of the East.” Since our establishment in 1983, PICT has been revolutionizing the education sector by
+      nurturing skilled and industry-ready engineers.
+      </p>
+
+    </div>
+
+
+  <div data-role="footer" class="ui-bar">
+	<a href="index.html" data-role="button" >Add</a>
+	<a href="index.html" data-role="button" >Up</a>
+	<a href="index.html" data-role="button">Down</a>
+</div>
+  
+  </div>
+
+  
+  <div data-role="page" id="about" style="background-color: rgb(255, 255, 255);">
+    <div data-role="header">
+    <h1>Pune Institute of Computer Technology,Pune</h1>
+<h4>Autonomous Institute affiliated to Savitribai Phule Pune University</h4>
+    </div>
+
+    <div data-role="navbar" data-grids="C">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#dept">Department</a></li>
+        <li><a href="#achieve">Achievement</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+
+    <div data-role="content">
+      <h3>Welcome To PICT</h3>
+       
+       <div class="slideshow">
+        <img src="p1.png" class="slides"/>
+        <img src="p2.png" class="slides"/>
+        <img src="p1.png" class="slides"/>
+       </div>
+      </div>
+
+      <script>
+   var slideIndex=0;
+   carousl();
+
+   function carousl(){
+    var i;
+    var x=document.getElementsByClassName("slides");
+
+    for(i=0;i<x.length;i++){
+      x[i].style.display="none";
+    }
+    slideIndex++;
+    if(slideIndex > x.length){
+      slideIndex=1;
+    }
+    x[slideIndex-1].style.display="block";
+    setTimeout(carousl, 2000);
+   }
+
+      </script>
+
+<div data-role="content"> 
+
+  <div class="row">
+    <div class="column">
+      <p>bchsbkfhsjkhdkjshd</p>
+    </div>
+    <div class="column">
+      <p>bchsbkfhsjkhdkjshd</p>
+    </div>
+  </div>
+
+</div>
+<div data-role="content"> 
+  <ul data-role="listview">
+    <li><a href="#">IT</a></li>
+    <li><a href="#">Comp</a></li>
+    <li><a href="#">Electronics</a></li>
+   
+  </ul>
+</div>
+  
+
+  <div data-role="footer" class="ui-bar">
+	<a href="index.html" data-role="button" >Add</a>
+	<a href="index.html" data-role="button" >Up</a>
+	<a href="index.html" data-role="button">Down</a>
+</div>
+  
+  </div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jquery Mobile</title>
+  <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+  <script src="https://code.jquery.com/jquery-1.11.1.min.js"></scri>
+  <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+  <style>
+    #change {
+      text-align: center;
+    }
+
+    .h1tag {
+      text-align: center;
+
+    }
+
+    .change {
+      text-align: justify;
+    }
+
+    .row {
+      display: flex;
+    }
+
+    .column {
+      flex: 50%;
+      padding: 10px;
+    }
+  </styl>
+</head>
+
+<body>
+
+  <div data-role="page" id="home">
+
+
+    <div data-role="header">
+      <h1> Pune Institute of Computer Technology,Pune</h1>
+      <p id="change">
+        (An Autonomous Institute affiliated to Savitribai Phule Pune
+        University) AICTE APPROVED | ISO 9001:2015 | NAAC A+ Grade | NBA [All
+        Eligible UG Programs]
+      </p>
+    </div>
+
+
+
+      <div data-role="navbar" data-grids="C">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#dept">Department</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#achieve">Achievement</a></li>
+        </ul>
+      </div>
+   
+
+
+    <div data-role="content">
+      <h3>Welcome to PICT</h3>
+
+      <p class="change">
+        Pune Institute of Computer Technology (popularly known as PICT), is an elite academic Institute located in Pune,
+        “The Oxford of the East.” Since our establishment in 1983, PICT has been revolutionizing the education sector by
+        nurturing skilled and industry-ready engineers.
+
+        PICT believes in value-based quality education in Information and Communication Technology (ICT). PICT
+        constantly endeavours to achieve higher levels of technical ingenuity through our undergraduate (UG) programmes
+        in Computer Engineering (CE), Electronics & Telecommunication Engineering (E&TE), and Information Technology
+        (IT). Our postgraduate (PG) programmes in Computer Engineering, Data Science, Electronics & Communication
+        (Wireless Communication Technology), and Information Technology promote a high-quality research environment in
+        emerging technological domains.
+        PICT is a Savitribai Phule Pune University (SPPU) recognized Research Center in Computer Engineering and
+        Electronics & Telecommunication Engineering.
+      </p>
+
+    </div>
+
+
+
+
+    <div data-role="footer">
+
+      <h3>Quick Access</h3>
+      <ul>
+        <center>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#dept">Department</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </center>
+      </ul>
+    </div>
+
+
+  </div>
+
+
+
+  <div data-role="page" id="about">
+    <div data-role="header">
+      <h1> Pune Institute of Computer Technology,Pune</h1>
+      <p id="change">
+        (An Autonomous Institute affiliated to Savitribai Phule Pune
+        University) AICTE APPROVED | ISO 9001:2015 | NAAC A+ Grade | NBA [All
+        Eligible UG Programs]
+      </p>
+
+      <div data-role="navbar" data-grids="C">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#dept">Department</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#achieve">Achievement</a></li>
+        </ul>
+        </ul>
+      </div>
+    </div>
+    <div data-role="content">
+      <h3>Welcome to PICT</h3>
+
+      <div id="slideshow">
+        <img class="slides" src="p1.png" />
+        <img class="slides" src="p2.png" />
+        <img class="slides" src="p1.png" />
+      </div>
+    </div>
+
+    <script>
+      var slideIndex = 0;
+      carousel();
+
+      function carousel() {
+        var i;
+        var x = document.getElementsByClassName("slides");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > x.length) { slideIndex = 1 }
+        x[slideIndex - 1].style.display = "block";
+        setTimeout(carousel, 2000); // Change image every 2 seconds
+      }
+    </script>
+
+  </div>
+
+  <div data-role="footer">
+
+    <h3>Quick Access</h3>
+    <ul>
+      <center>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#dept">Department</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </center>
+    </ul>
+
+
+
+  </div>
+  </div>
+
+
+  <div data-role="page" id="dept">
+    <div data-role="header">
+      <h1> Pune Institute of Computer Technology,Pune</h1>
+      <p id="change">
+        (An Autonomous Institute affiliated to Savitribai Phule Pune
+        University) AICTE APPROVED | ISO 9001:2015 | NAAC A+ Grade | NBA [All
+        Eligible UG Programs]
+      </p>
+
+      <div data-role="navbar" data-grids="C">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#dept">Department</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#achieve">Achievement</a></li>
+        </ul>
+        </ul>
+      </div>
+    </div>
+    <div data-role="content">
+      <ul data-role="listview">
+        <li><a href="#">IT</a></li>
+        <li><a href="#">IT</a></li>
+        <li><a href="#">IT</a></li>
+        <li><a href="#">IT</a></li>
+      </ul>
+
+    </div>
+
+    <div data-role="footer">
+
+      <h3>Quick Access</h3>
+      <ul>
+        <center>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#dept">Department</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </center>
+      </ul>
+
+
+
+    </div>
+  </div>
+
+
+  <div data-role="page" id="achieve">
+    <div data-role="header">
+      <h1> Pune Institute of Computer Technology, Pune</h1>
+      <p id="change">
+        (An Autonomous Institute affiliated to Savitribai Phule Pune
+        University) AICTE APPROVED | ISO 9001:2015 | NAAC A+ Grade | NBA [All
+        Eligible UG Programs]
+      </p>
+
+      <div data-role="navbar" data-grids="C">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#dept">Department</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div data-role="content">
+      <div class="row">
+        <div class="column">
+          <h2>Column 1</h2>
+          <p>Content for column 1 goes here.</p>
+        </div>
+        <div class="column">
+          <h2>Column 2</h2>
+          <p>Content for column 2 goes here.</p>
+        </div>
+      </div>
+    </div>
+    <div data-role="footer">
+      <h3>Quick Access</h3>
+      <ul>
+        <center>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#dept">Department</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </center>
+      </ul>
+    </div>
+  </div>
+
+
+
+</body>
+
+</html> -->
